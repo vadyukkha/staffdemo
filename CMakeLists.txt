@@ -1,0 +1,11 @@
+cmake_minimum_required (VERSION 3.10.2)
+project(Staff)
+project(${PROJECT_NAME})
+set(CMAKE_CXX_STANDARD 17)
+include_directories(${PROJECT_SOURCE_DIR}/include/json/include)
+file(GLOB SRC_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp)
+add_library(staff_lib ${SRC_FILES})
+set(COMMON_INCLUDES ${PROJECT_SOURCE_DIR}/include)
+
+add_executable(Staff ${PROJECT_SOURCE_DIR}/src/main.cpp)
+target_link_libraries(Staff staff_lib)

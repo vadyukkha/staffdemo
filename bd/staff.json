@@ -1,0 +1,147 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "position": "Project Manager",
+        "worktime": 40,
+        "projects": [1]
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "position": "Tester",
+        "worktime": 40,
+        "project": 1,
+        "payment": 3500
+      },
+      {
+        "id": 3,
+        "name": "Michael Johnson",
+        "position": "Senior Manager",
+        "worktime": 40,
+        "projects": [3, 4]
+      },
+      {
+        "id": 4,
+        "name": "Emily Davis",
+        "position": "Programmer",
+        "worktime": 40,
+        "project": 2,
+        "payment": 5000
+      },
+      {
+        "id": 5,
+        "name": "David Brown",
+        "position": "Tester",
+        "worktime": 40,
+        "project": 2,
+        "payment": 4800
+      },
+      {
+        "id": 6,
+        "name": "Olivia Wilson",
+        "position": "Driver",
+        "worktime": 40,
+        "payment": 2500
+      },
+      {
+        "id": 7,
+        "name": "William Taylor",
+        "position": "Cleaner",
+        "worktime": 30,
+        "payment": 1500
+      },
+      {
+        "id": 8,
+        "name": "Sophia Martinez",
+        "position": "Programmer",
+        "worktime": 40,
+        "project": 3,
+        "payment": 5500
+      },
+      {
+        "id": 9,
+        "name": "James Anderson",
+        "position": "Project Manager",
+        "worktime": 40,
+        "projects": [4]
+      },
+      {
+        "id": 10,
+        "name": "Emma Thomas",
+        "position": "Tester",
+        "worktime": 40,
+        "project": 4,
+        "payment": 5600
+      },
+      {
+        "id": 11,
+        "name": "Alexander White",
+        "position": "Cleaner",
+        "worktime": 30,
+        "payment": 1000
+      },
+      {
+        "id": 12,
+        "name": "Mia Clark",
+        "position": "Driver",
+        "worktime": 40,
+        "payment": 6000
+      },
+      {
+        "id": 13,
+        "name": "Daniel Hall",
+        "position": "Programmer",
+        "worktime": 40,
+        "project": 3,
+        "payment": 5200
+      },
+      {
+        "id": 14,
+        "name": "Ava Rodriguez",
+        "position": "Tester",
+        "worktime": 40,
+        "project": 3,
+        "payment": 4900
+      },
+      {
+        "id": 15,
+        "name": "Logan Garcia",
+        "position": "Senior Manager",
+        "worktime": 40,
+        "projects": [2, 5]
+      }
+    ],
+    "projects" : [
+      {
+        "id": 1,
+        "budget": 100000
+      },
+      {
+        "id": 2,
+        "budget": 120000
+      },
+      {
+        "id": 3,
+        "budget": 90000
+      },
+      {
+        "id": 4,
+        "budget": 512000
+      },
+      {
+        "id": 5,
+        "budget": 111000
+      },
+      {
+        "id": 6,
+        "budget": 128000
+      },
+      {
+        "id": 7,
+        "budget": 1000
+      }
+    ]
+}
+  
